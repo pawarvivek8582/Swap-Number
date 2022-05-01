@@ -1,0 +1,29 @@
+public final class Immutable{
+
+private finat int id;
+private final Strimg name;
+
+public int getId(){
+return id;
+}
+
+public String getName(){
+return name;
+}
+
+public Immutable (int id,String name){
+    this.id=id;
+    this.name=name;
+}
+
+public static void main(Sting []args){
+
+Immutable e=new Immutable(1,"vivek");
+
+System.out.println(e.id+" "+e.name);
+Immutable e1=new Immutable(2,"pawar");
+System.out.println(e.id+" "+e.name);
+
+}
+
+}
